@@ -89,7 +89,7 @@ def model_load(model_path):
 
 
 def prepare_output(result, task):
-    if task == 'feedforward':
+    if task == 'feedforward_spektral':
         return {}
     elif task == 'node-classification':
         return result
